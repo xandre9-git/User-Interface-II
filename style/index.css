@@ -1,1 +1,31 @@
 /* Add CSS styling here */
+
+body {
+    /* font-size: 62.5%; */
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Monospace;
+}
+
+
+.container .links {
+    height: 25px;
+    width: 50px;  
+    
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
