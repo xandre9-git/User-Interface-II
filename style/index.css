@@ -1,1 +1,125 @@
 /* Add CSS styling here */
+
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+
+    font-family: Monospace;
+    font-size: 1.2rem;
+    color: black;
+    background: white;
+}
+
+
+a {
+    
+    text-decoration: none;
+   
+}
+
+h1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: agency fb;
+    font-size: 4.8rem;
+    margin: 15px;
+}
+
+h2 {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 3.0rem;
+    font-family: agency fb;
+    margin: 15px;
+}
+
+/* This makes it so the image width does not exceed 100% and will scale when browser viewport is adjusted */
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container .links a {
+    display: flex;
+    flex-flow: column wrap;
+    height: 25px;
+    width: 100px;  
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    font-family: monospace;
+    border: 1px solid black;
+}
+
+.container .links a:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.aboutme {
+    margin: 50px;
+    text-align: left;
+}
+
+
+.image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.likedimages {
+    display: flex;
+    margin: 0    
+}
+
+.image-container .likedimages img {
+        display: flex;
+        flex-flow: row wrap;
+      
+    /* border: 1px solid navy; */
+   
+}
+
+.likes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sidebarText {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: justify;
+    padding: 3%;
+}
+    
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1%
+}
+
+.contact {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 50px 0 0 0px; 
+    /* border: 1px solid black; */
+}
+
+.contact a {
+    border: 1px solid black;
+}
