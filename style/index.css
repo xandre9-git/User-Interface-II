@@ -1,31 +1,91 @@
 /* Add CSS styling here */
 
+/* * {
+    border: 1px solid black;
+} */
+
 body {
-    /* font-size: 62.5%; */
+
+    font-family: Monospace;
+    font-size: 1.2rem;
+    color: black;
+    background: white;
 }
 
+
 a {
+    
     text-decoration: none;
+   
 }
 
 h1 {
-    text-align: center;
-    font-family: Monospace;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: courier;
 }
 
-
-.container .links {
-    height: 25px;
-    width: 50px;  
-    
-    padding: 5px;
-    text-align: center;
-    
+/* This makes it so the image width does not exceed 100% and will scale when browser viewport is adjusted */
+img {
+    max-width: 100%;
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.container .links a {
+    display: flex;
+    flex-flow: column wrap;
+    height: 25px;
+    width: 100px;  
+    text-align: center;
+    margin: 50%
+    /* background-color: blue;
+    border: 1px solid red; */
+    padding: 2%
+    font-family: calibri;
+}
+
+.aboutme {
+    margin: 50px;
+    text-align: left;
+}
+
+
+.image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     
+    
+}
+
+.likedimages {
+    display: flex;
+        
+}
+
+.image-container .likedimages img {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 50px;
+    /* border: 1px solid navy; */
+   
+}
+    
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%
+}
+
+.contact {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
