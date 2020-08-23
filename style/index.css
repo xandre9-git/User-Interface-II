@@ -129,7 +129,7 @@ nav {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 
@@ -142,12 +142,12 @@ nav {
         border: 1px solid black;
 } 
 
-/* .likes {
-   display: block;
-} */
+.likes {
+   display: flex;
+}
 
 .sidebarText {
-    display: block;
+    display: inline-block;
     flex-flow: row wrap;
     align-items: center;
     text-align: center;
@@ -204,7 +204,7 @@ nav {
 
     .image-container {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         justify-content: space-evenly;
     }   
     
