@@ -129,24 +129,18 @@ nav {
 
 .image-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}   
-
-
-div.likedimages {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0    
+    justify-content: center;
 }
 
-/* .image-container .likedimages img {
+
+
+
+ div.likedimages img {
         display: flex;
         flex-flow: row wrap;
-        margin: 1%  
-    border: 1px solid navy;
-   
-} */
+        margin: 1%; 
+        border: 1px solid black;
+} 
 
 /* .likes {
    display: block;
@@ -156,7 +150,7 @@ div.likedimages {
     display: block;
     flex-flow: row wrap;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     padding: 3%;
 }
     
